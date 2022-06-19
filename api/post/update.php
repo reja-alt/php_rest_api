@@ -28,10 +28,10 @@
     // Create post
     if($post->update()) {
         echo json_encode(
-        array('message' => 'Post Created')
+        array('message' => 'Post Updated Successfully !')
         );
     } else {
         echo json_encode(
-        array('message' => 'Post Not Created')
+        array('message' => 'Post Not Updated')
         );
     }
