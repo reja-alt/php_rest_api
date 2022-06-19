@@ -27,7 +27,7 @@
     // Create post
     if($post->create()) {
         echo json_encode(
-        array('message' => 'Post CreatedSuccessfully !')
+        array('message' => 'Post Created Successfully !')
         );
     } else {
         echo json_encode(
